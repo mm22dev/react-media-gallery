@@ -1,0 +1,64 @@
+{
+    "renderSettings": {
+        "popup": {
+            "style": {},
+            "prevSizes": {
+                "width": "0px",
+                "height": "0px"
+            },
+            "childs": {
+                "loader": {
+                    "style": {},
+                    "animate": false
+                },
+                "media": {
+                    "wrapper": {
+                        "style": {},
+                        "applyFadeIn": false
+                    },
+                    "content": {
+                        "style": {},
+                        "status": "idle",
+                        "elToRender": {
+                            "tagFamily": null,
+                            "innerProps": {}
+                        }
+                    }
+                },
+                "caption": {
+                    "style": {},
+                    "fade": {}
+                },
+                "closer": {
+                    "style": {}
+                },
+                "navbar": {
+                    "prev": {
+                        "style": {}
+                    },
+                    "next": {
+                        "style": {}
+                    }
+                }
+            }
+        }
+    },
+    "structureSettings": {
+        "queue": [],
+        "navPos": 0,
+        "isLocked": false,
+        "cache": [],
+        "errors": []
+    },
+    "springAnimationSettings": {
+        "default": {
+            "triggerAnimation": false,
+            "duration": 0,
+            "immediate": false,
+            "sizes": {
+                "width": "0px",
+                "height": "0px"
+            }    
+        }
+    }
+}

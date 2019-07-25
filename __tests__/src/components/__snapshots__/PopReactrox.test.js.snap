@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopReactrox /> Component  Rendering the UI Renders correctly 1`] = `
+<PopupSettingsProvider
+  PRTSettings={Object {}}
+>
+  <Overlay />
+</PopupSettingsProvider>
+`;

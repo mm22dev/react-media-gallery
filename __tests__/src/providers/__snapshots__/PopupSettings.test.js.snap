@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopupSettings Provider Rendering Provider component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "errors": Array [],
+      "popupSettings": Object {
+        "baseZIndex": 1000,
+        "caption": null,
+        "fadeSpeed": 300,
+        "onPopupClose": null,
+        "onPopupOpen": null,
+        "overlayClass": "popreactrox-overlay",
+        "overlayColor": "#000000",
+        "overlayOpacity": 0.6,
+        "popupBackgroundColor": "#FFFFFF",
+        "popupBlankCaptionText": "(untitled)",
+        "popupCaptionHeight": 60,
+        "popupCaptionSelector": null,
+        "popupCaptionTextSize": null,
+        "popupClass": "popreactrox-popup",
+        "popupCloserBackgroundColor": "#000000",
+        "popupCloserSelector": ".closer",
+        "popupCloserText": "×",
+        "popupCloserTextColor": "#FFFFFF",
+        "popupCloserTextSize": "20px",
+        "popupHeight": 100,
+        "popupIsFixed": false,
+        "popupLoaderSelector": ".loader",
+        "popupLoaderText": "••••",
+        "popupLoaderTextSize": "2em",
+        "popupNavNextSelector": null,
+        "popupNavPreviousSelector": null,
+        "popupPadding": 10,
+        "popupSelector": null,
+        "popupSpeed": 300,
+        "popupTextColor": "#000000",
+        "popupWidth": 200,
+        "preload": false,
+        "selector": null,
+        "useBodyOverflow": false,
+        "usePopupCaption": false,
+        "usePopupCloser": true,
+        "usePopupDefaultStyling": true,
+        "usePopupEasyClose": true,
+        "usePopupForceClose": false,
+        "usePopupLoader": true,
+        "usePopupNav": false,
+        "windowHeightPad": 0,
+        "windowMargin": 50,
+      },
+    }
+  }
+/>
+`;
