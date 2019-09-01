@@ -33,7 +33,7 @@ describe('<Loader /> Component', () => {
 
     it('Triggers CSS animation on loading request when default Popup style is applied', () => {
       wrapper = mount(<Loader popupSettings={{ ...popupSettings, usePopupDefaultStyling: true }} animate={true}/>)
-      expect(wrapper.find(`${popupSettings.popupLoaderSelector} div`).get(0).props.className).toBe('animated')
+      expect(wrapper.find(`${popupSettings.popupLoaderSelector} div`).get(0).props.className).toEqual(expect.stringContaining('animated'))
     })
 
     it('Renders a custom Loader text', () => {

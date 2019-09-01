@@ -34,7 +34,7 @@ const CloserUI = ({ style, popupSettings, updateOverlayStateWith }) => {
   return (
     popupCloserSelector
       ? <span
-        className={`prt-x-default ${popupCloserSelector.slice(1)}`}
+        className={popupCloserSelector.slice(1)}
         style={{ ...defaultStyle, ...style }}
         onClick={ev => onClick(ev)}
       >

@@ -48,7 +48,7 @@ const NavbarUI = ({ prev, next, popupSettings, actionPerformer }) => {
       {
         // PopupSettings provider sets popupNavPreviousSelector to null if usePopupNav is false
         popupNavPreviousSelector
-          ? <div className={`${popupNavPreviousSelector.slice(1)}`} style={{ ...wrapperStyle, left: 0, ...prev.style }} onClick={ev => onClick(ev, 'prev')}>
+          ? <div className={popupNavPreviousSelector.slice(1)} style={{ ...wrapperStyle, left: 0, ...prev.style }} onClick={ev => onClick(ev, 'prev')}>
             { usePopupDefaultStyling ? <div style={{ ...innerStyle, left: 0 }}>{prevUnicode}</div> : null }
           </div>
           : null
@@ -56,7 +56,7 @@ const NavbarUI = ({ prev, next, popupSettings, actionPerformer }) => {
       {
         // PopupSettings provider sets popupNavNextSelector to null if usePopupNav is false
         popupNavNextSelector
-          ? <div className={`${popupNavNextSelector.slice(1)}`} style={{ ...wrapperStyle, right: 0, ...next.style }} onClick={ev => onClick(ev, 'next')}>
+          ? <div className={popupNavNextSelector.slice(1)} style={{ ...wrapperStyle, right: 0, ...next.style }} onClick={ev => onClick(ev, 'next')}>
             { usePopupDefaultStyling ? <div style={{ ...innerStyle, right: 0 }}>{nextUnicode}</div> : null }
           </div>
           : null

@@ -20,6 +20,11 @@ class PopupUI extends Component {
     this.popupSettings = this.props.popupSettings
     const { usePopupDefaultStyling, popupBackgroundColor, popupTextColor, popupPadding, popupCaptionHeight, usePopupCaption, popupWidth, popupHeight } = this.popupSettings
     this.style = {
+      display: 'none',
+      verticalAlign: 'middle',
+      position: 'relative',
+      zIndex: 1,
+      cursor: 'pointer',
       ...(usePopupDefaultStyling && {
         background: popupBackgroundColor,
         color: popupTextColor,

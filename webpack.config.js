@@ -7,10 +7,11 @@ module.exports = (env, options) => {
       popreactrox: path.join(__dirname, '/src/index.js')
     },
     output: {
-      libraryTarget: 'umd',
       path: path.join(__dirname, '/dist'),
       filename: '[name].js',
-      sourceMapFilename: '[name].map'
+      sourceMapFilename: '[name].map',
+      libraryTarget: 'umd',
+      globalObject: `(typeof self !== 'undefined' ? self : this)`
     },
     resolve: {
       extensions: ['*', '.js', '.jsx'],
@@ -23,10 +24,6 @@ module.exports = (env, options) => {
           test: /\.(js|jsx)$/,
           exclude: /node_modules/,
           use: ['babel-loader']
-        },
-        {
-          test: /\.(s*)css$/,
-          use: ['style-loader', 'css-loader', 'sass-loader']
         }
       ]
     },

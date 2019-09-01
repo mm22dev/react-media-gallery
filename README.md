@@ -7,7 +7,7 @@ Let your multimedia content take center stage with react-media-gallery. The easy
 ## Preview
 
 <p align="center">
-  <img width="840" height="450" src="./header.gif"></img>
+  <img width="840" height="450" src="https://react-media-gallery.s3.eu-west-3.amazonaws.com/header-opt.gif"></img>
 </p>
 
 ## Installation
@@ -126,9 +126,9 @@ caption: null // Show "What a nice media element!"
 </a>
 ```
 ```js
-caption: { selector: "description" } // Show "Awesome media"
+caption: { selector: ".description" } // Show "Awesome media"
 
-caption: { selector: "description", attribute: "data-desc" } // Show "Magnificent media"
+caption: { selector: ".description", attribute: "data-desc" } // Show "Magnificent media"
 ```
 3. The advanced method consists in using a callback function (**whose only argument is the anchor element**) to retrieve nested contents. 
 ```html
@@ -260,7 +260,7 @@ Are you not satisfied with the customization possibilities offered by the PopRea
 - Point to the assigned selectors in your own external style sheet
 
 <p align="center">
-  <img width="840" height="450" src="./custom_style.gif"></img>
+  <img width="840" height="450" src="https://react-media-gallery.s3.eu-west-3.amazonaws.com/custom_style-opt.gif"></img>
 </p>
 
 ## Test

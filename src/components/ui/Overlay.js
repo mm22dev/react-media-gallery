@@ -11,6 +11,13 @@ class OverlayUI extends Component {
     super(props)
     this.popupSettings = this.props.popupSettings
     this.style = {
+      position: 'fixed',
+      left: 0,
+      top: 0,
+      width: '100%',
+      height: '100%',
+      textAlign: 'center',
+      cursor: 'pointer',
       zIndex: this.popupSettings.baseZIndex,
       display: 'none' // handled by <Fade />
     }
@@ -100,8 +107,19 @@ class OverlayUI extends Component {
           style={this.style}
           onTouchMove={identityFn}
           onClick={ev => this.onOverlayClick(ev)} >
-          <div />
-          <div style={{ background: overlayColor, opacity: overlayOpacity, filter: `alpha(opacity=${overlayOpacity * 100})` }} />
+          <div style={{
+            display: 'inline-block',
+            height: '100%',
+            verticalAlign: 'middle' }}/>
+          <div style={{
+            position: 'absolute',
+            left: 0,
+            top: 0,
+            width: '100%',
+            height: '100%',
+            background: overlayColor,
+            opacity: overlayOpacity,
+            filter: `alpha(opacity=${overlayOpacity * 100})` }} />
           <Popup
             overlayState={this.state}
             getClickedAnchorIndex={this.getClickedAnchorIndex}

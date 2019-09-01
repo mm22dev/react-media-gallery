@@ -1,6 +1,6 @@
 {
   "name": "react-media-gallery",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A responsive customizable media gallery for React apps.",
   "main": "dist/popreactrox.js",
   "repository": {
@@ -42,7 +42,6 @@
     "@babel/runtime": "^7.4.5",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.2",
-    "css-loader": "^1.0.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.13.2",
     "enzyme-to-json": "^3.3.5",
@@ -56,15 +55,10 @@
     "file-loader": "^4.1.0",
     "jest": "^24.8.0",
     "jest-css-modules": "^2.0.0",
-    "node-sass": "^4.11.0",
-    "postcss-loader": "^2.0.6",
     "react": "^16.5.0",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^16.5.0",
     "redux": "^4.0.1",
-    "sass-loader": "^7.1.0",
-    "sass-resources-loader": "^2.0.1",
-    "style-loader": "^0.18.2",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
     "whatwg-fetch": "^3.0.0"
@@ -73,6 +67,7 @@
     "dompurify": "^1.0.11",
     "lodash.isequal": "^4.5.0",
     "react-spring": "^8.0.19",
+    "styled-components": "^4.3.2",
     "uuid": "^3.3.2"
   }
 }
