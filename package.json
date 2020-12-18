@@ -64,7 +64,7 @@
     "whatwg-fetch": "^3.0.0"
   },
   "dependencies": {
-    "dompurify": "^1.0.11",
+    "dompurify": "^2.0.17",
     "lodash.isequal": "^4.5.0",
     "react-spring": "^8.0.19",
     "styled-components": "^4.3.2",
